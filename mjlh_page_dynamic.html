@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouvement des Jeunes Leaders Haoussa (MJLH)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        header img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100px;
+            transition: transform 0.3s ease-in-out;
+        }
+        header img:hover {
+            transform: scale(1.1);
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s ease-in-out;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        section {
+            padding: 20px;
+            margin: 80px auto;
+            background-color: white;
+            max-width: 900px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img {
+            display: block;
+            margin: 0 auto 20px auto;
+            max-width: 200px;
+        }
+        .scroll-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: #4CAF50;
+            z-index: 2000;
+            transform-origin: left;
+            transform: scaleX(0);
+        }
+    </style>
+</head>
+<body>
+
+<div class="scroll-progress"></div>
+
+<header>
+    <img src="file-Vage0hqyETZRWmIwzeGUQBCR" alt="Logo MJLH">
+    <h1>Mouvement des Jeunes Leaders Haoussa (MJLH)</h1>
+</header>
+
+<nav>
+    <a href="#qui-sommes-nous">Qui sommes-nous ?</a>
+    <a href="#nos-objectifs">Nos objectifs</a>
+    <a href="#projets">Nos projets</a>
+    <a href="#contact">Contactez-nous</a>
+</nav>
+
+<section id="qui-sommes-nous">
+    <h2>Qui sommes-nous ?</h2>
+    <p>Le <strong>Mouvement des Jeunes Leaders Haoussa (MJLH)</strong> est une organisation dynamique et engagée qui vise à promouvoir le leadership et l'autonomisation des jeunes au sein de la communauté Haoussa. L'association s'efforce de créer des opportunités pour les jeunes, les aidant à développer des compétences essentielles dans divers domaines, notamment l'entrepreneuriat, l'éducation et le développement personnel.</p>
+</section>
+
+<section id="nos-objectifs">
+    <h2>Nos objectifs</h2>
+    <ul>
+        <li>Promouvoir l'entrepreneuriat et l'autonomisation économique des jeunes.</li>
+        <li>Encourager l'éducation et la formation professionnelle pour un avenir meilleur.</li>
+        <li>Favoriser l'unité et la solidarité au sein de la communauté Haoussa.</li>
+        <li>Organiser des projets et des événements pour stimuler la participation active des jeunes dans les processus de développement.</li>
+    </ul>
+</section>
+
+<section id="projets">
+    <h2>Nos projets</h2>
+    <p>L'un de nos projets phares est <strong>l'atelier de couture</strong>, conçu pour offrir une formation pratique aux jeunes femmes et hommes désireux d'acquérir des compétences en couture. Ce projet est un moyen efficace de créer des emplois et de lutter contre le chômage, tout en renforçant l'autonomie économique des jeunes.</p>
+
+    <h3>Assemblée Générale 2023</h3>
+    <p>En juin 2023, le MJLH a tenu une <strong>Assemblée Générale</strong> pour discuter des orientations stratégiques de l'association et établir un plan d'action pour les années à venir. Cet événement a permis de renforcer la cohésion interne et de planifier les projets futurs, notamment l'élargissement des formations professionnelles et la participation à des événements internationaux.</p>
+
+    <h3>Congrès national du MJLH</h3>
+    <p>Le MJLH prépare actuellement un <strong>grand congrès</strong> qui se tiendra au Palais des Sports de Libreville. Cet événement réunira plus de 10 000 participants venus de toutes les régions du Gabon. Ce congrès a pour objectif de mobiliser les jeunes, de débattre sur les enjeux socio-économiques actuels, et de renforcer la solidarité au sein de la communauté.</p>
+
+    <p>Les principales thématiques abordées lors du congrès incluront :</p>
+    <ul>
+        <li>L'entrepreneuriat des jeunes.</li>
+        <li>Le rôle du leadership dans le développement local.</li>
+        <li>La promotion de l'éducation et de la formation professionnelle.</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contactez-nous</h2>
+    <p>Pour toute information ou pour rejoindre notre cause, contactez-nous à :</p>
+    <ul>
+        <li><strong>Email :</strong> contactmjlh@gmail.com</li>
+        <li><strong>Téléphone :</strong> +241 77967303</li>
+        <li><strong>Adresse :</strong> Libreville, Gabon</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2024 Mouvement des Jeunes Leaders Haoussa (MJLH)</p>
+</footer>
+
+<script>
+    // Scroll progress bar
+    window.onscroll = function() {
+        var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        var scrolled = (window.scrollY / docHeight) * 100;
+        document.querySelector('.scroll-progress').style.transform = 'scaleX(' + scrolled / 100 + ')';
+    };
+</script>
+
+</body>
+</html>
